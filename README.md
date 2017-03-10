@@ -30,7 +30,7 @@ bin/webpack
 rails s
 ```
 
-2. With Foreman:
+2. With Foreman:gfgf
 
 Add the `foreman` gem to your `Gemfile`
 ```ruby
