@@ -1,0 +1,7 @@
+development:
+ adapter: postgresql
+ encoding: unicode
+ database: hyperloop-showcase-rails51
+ pool: 5
+ username: fcooker
+ password: Beloos-27021975

@@ -1,0 +1,29 @@
+{
+  "name": "hyperloop-showcase-rails5_1",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "bootswatch": "^3.3.7",
+    "css-loader": "^0.27.1",
+    "file-loader": "^0.10.1",
+    "react-bootstrap": "^0.30.8",
+    "react-player": "^0.14.3",
+    "style-loader": "^0.13.2",
+    "url-loader": "^0.5.8"
+  },
+  "devDependencies": {
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.4.0",
+    "babel-preset-latest": "^6.22.0",
+    "coffee-loader": "^0.7.3",
+    "coffee-script": "^1.12.4",
+    "glob": "^7.1.1",
+    "path-complete-extname": "^0.1.0",
+    "rails-erb-loader": "^3.2.0",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.4.1",
+    "webpack-merge": "^4.0.0"
+  }
+}
