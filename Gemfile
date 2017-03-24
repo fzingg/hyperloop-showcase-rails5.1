@@ -7,7 +7,7 @@ end
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 5.1.0.beta1'
+gem 'rails', '~> 5.1.0.rc1'
 
 #gem 'sprockets-rails', '2.3.3'
 # Use sqlite3 as the database for Active Record
@@ -61,12 +61,15 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 
-gem 'hyper-rails', git: 'https://github.com/ruby-hyperloop/hyper-rails.git'
-gem 'opal-rails', '0.9.1'
-gem 'opal-browser', '0.2.0'
-gem 'hyper-react', '0.11.0'
-gem 'hyper-mesh', '0.5.3'
-gem 'hyper-router', '2.4.0'
-gem 'therubyracer', platforms: :ruby
+# gem 'hyper-rails', git: 'https://github.com/ruby-hyperloop/hyper-rails.git'
+# gem 'opal-rails', '0.9.1'
+# gem 'opal-browser', '0.2.0'
+# gem 'hyper-react', '0.11.0'
+# gem 'hyper-mesh', '0.5.3'
+# gem 'hyper-router', '2.4.0'
+
+gem 'hyperloop', git: 'https://github.com/ruby-hyperloop/hyperloop.git'
+
+#gem 'therubyracer', platforms: :ruby
 
 gem 'opal_hot_reloader', git: 'https://github.com/fkchang/opal-hot-reloader.git'

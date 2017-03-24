@@ -1,4 +1,4 @@
-class PlaneventsList < React::Component::Base
+class PlaneventsList < Hyperloop::Component
 
   define_state new_planevent: Hash.new { |h, k| h[k] = '' }
 
@@ -82,7 +82,7 @@ class PlaneventsList < React::Component::Base
   end
 end
 
-class PlaneventsListItem < React::Component::Base
+class PlaneventsListItem < Hyperloop::Component
   param :planevent
 
   def render

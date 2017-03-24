@@ -298,7 +298,7 @@ React.version
 Remember this value, as we will need to use it later.
 
 
-## Step 4: Managing front end assets with Webpack
+## Step 4: Managing front end assets with Webpacker and YARN
 
 
 In the `app/javascript/packs` add the following two files:

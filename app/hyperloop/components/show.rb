@@ -1,4 +1,4 @@
-class Show < React::Component::Base
+class Show < Hyperloop::Component
 
 	def say_hello(i)
 	    alert "Hello from number #{i}"
